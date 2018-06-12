@@ -1,6 +1,6 @@
 {
   "name": "anki-overdrive-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple Node.js SDK for Anki Overdrive devices",
   "main": "lib/anki.js",
   "scripts": {
