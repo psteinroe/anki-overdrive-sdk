@@ -86,7 +86,7 @@ Car Status:
 A message for an event always includes a description beside optional additional event-specific data. For now, check `lib/coder.js` for more information.
 
 ## Commands
-The following commands are implemented so far. If the `deviceId` is not specified or unknown, the command will be sent to every currenty connected car.
+The following commands are implemented so far. If the `deviceId` is not specified or unknown, the command will be sent to every currently connected car.
 
 **IMPORTANT NOTE:** Some of the commands are not fully tested yet!
 ```javascript
