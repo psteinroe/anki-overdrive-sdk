@@ -1,0 +1,31 @@
+{
+  "name": "anki-overdrive-sdk",
+  "version": "1.0.0",
+  "description": "A simple Node.js SDK for Anki Overdrive devices",
+  "main": "lib/anki.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steinroe/anki-overdrive-node-sdk.git"
+  },
+  "keywords": [
+    "anki",
+    "overdrive",
+    "node",
+    "nodejs",
+    "node.js",
+    "sdk"
+  ],
+  "author": "Philipp Steinrötter <philipp@steinroetter.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steinroe/anki-overdrive-node-sdk/issues"
+  },
+  "homepage": "https://github.com/steinroe/anki-overdrive-node-sdk#readme",
+  "dependencies": {
+    "async-wait-until": "^1.2.4",
+    "noble-promise": "^1.9.2"
+  }
+}
