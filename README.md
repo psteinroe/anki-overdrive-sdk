@@ -1,4 +1,4 @@
-# anki-overdrive-node-sdk
+# anki-overdrive-sdk
 Anki Overdrive Node.js SDK
 
 **DISCLAIMER: THIS PACKAGE IS A WIP**
