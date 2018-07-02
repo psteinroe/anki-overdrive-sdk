@@ -37,7 +37,7 @@ process.on('uncaughtException', exitHandler.bind(null, {exit: true}))
 ## Events
 The cars emit a wide range of messages distinguished by their message id. In this SDK a distinction is drawn between messages of type *Status* and type *Event*:
 ```javascript
-event: [23, 41, 43, 54, 67, 77, 134, 201]
+event: [23, 41, 43, 54, 67, 77, 134, 201],
 status: [25, 27, 39, 45, 63, 65]
 ```
 The messages of type *Status* update the status object below which then gets emitted by the SDK. The messages of type *Event* just get handed through and are emitted by the SDK individually. All unknown / undocumented messages are handled as messages of type *Event*. 
